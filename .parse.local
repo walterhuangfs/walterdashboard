@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "WalterDashboard": {
+      "applicationId": "LDeFSUOGftyKJ2xEPOwT0qSY6C2aACWQErEdXU9V"
+    },
+    "_default": {
+      "link": "WalterDashboard"
+    }
+  }
+}
