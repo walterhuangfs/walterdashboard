@@ -1,10 +1,9 @@
 var React = require('react');
-var Parse = require('parse');
-var ParseReact = require('parse-react');
+var ReactDOM = require('react-dom');
 
 var MasterView = require('./components/master.react');
 
-React.render(
+ReactDOM.render(
   <MasterView />,
   document.getElementById('app')
 );
