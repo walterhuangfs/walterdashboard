@@ -1,9 +1,16 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import MasterView from './components/master.react';
 
-var MasterView = require('./components/master.react');
+// Import bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap';
 
-ReactDOM.render(
-  <MasterView />,
-  document.getElementById('app')
-);
+main();
+
+function main() {
+  ReactDOM.render(
+    <MasterView />,
+    document.getElementById('app')
+  );
+}

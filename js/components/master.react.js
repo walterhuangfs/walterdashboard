@@ -1,19 +1,19 @@
-var React = require('react');
-var Navbar = require('react-bootstrap/lib/Navbar');
+import React from 'react';
+import Navbar from 'react-bootstrap/lib/Navbar';
+import SiteInteresting from './siteInteresting.react';
 
-var Master = React.createClass({
-  render: function() {
-
+export default class Master extends React.Component {
+  render() {
     return (
       <div>
-        <Navbar inverse>
+        <Navbar>
           <Navbar.Header>
-            Walter's Dashboard
+            <Navbar.Brand><a href="#">Walter-Dasbboard</a></Navbar.Brand>
           </Navbar.Header>
         </Navbar>
+        <Navbar.Toggle />
+        <SiteInteresting></SiteInteresting>
       </div>
     );
   }
-});
-
-module.exports = Master;
+}
