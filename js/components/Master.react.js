@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/lib/Navbar';
-import SiteInteresting from './siteInteresting.react';
+import SiteInteresting from './SiteInteresting.react';
 
 export default class Master extends React.Component {
   render() {
@@ -8,10 +8,12 @@ export default class Master extends React.Component {
       <div>
         <Navbar>
           <Navbar.Header>
-            <Navbar.Brand><a href="#">Walter-Dasbboard</a></Navbar.Brand>
+            <Navbar.Brand>
+              <a href="#">Walter-Dasbboard</a>
+            </Navbar.Brand>
           </Navbar.Header>
         </Navbar>
-        <Navbar.Toggle />
+        <Navbar.Toggle/>
         <SiteInteresting></SiteInteresting>
       </div>
     );

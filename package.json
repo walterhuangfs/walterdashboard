@@ -30,7 +30,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "scripts": {
-    "build": "webpack",
+    "build": "webpack -p --config webpack.production.config.js --display-error-details",
     "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base public"
   }
 }
